@@ -1,0 +1,20 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts\Vazir-Regular.woff) format("woff");
+}
+body{
+    font-family: vazir;
+    background: url(https://www.tejaratsazan.com/wp-content/uploads/2021/04/63-scaled.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 300px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, .4);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+}
